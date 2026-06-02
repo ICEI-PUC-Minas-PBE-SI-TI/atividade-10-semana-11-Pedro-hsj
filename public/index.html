@@ -1,13 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todos os Itens</title>
-    <script src="script.js"></script>
+    <title>Além da Vista</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    
+
+    <header class="hero">
+        <nav class="navbar">
+            <div class="brand">
+                <h1 class="logo">Além da Vista</h1>
+                <span class="brand-subtitle">Paisagens, cultura e destinos do Brasil</span>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#destinos" class="nav-link">Destinos</a>
+                <a href="index.html" class="nav-button">Início</a>
+            </div>
+        </nav>
+
+        <div class="hero-wrapper">
+            <div class="hero-content">
+                <span class="tag">Explorar o Brasil com novos olhos</span>
+
+                <h2>Descubra lugares que revelam a beleza, a história e a alma das paisagens brasileiras</h2>
+
+                <p>
+                    O Além da Vista é uma galeria digital de destinos marcantes do Brasil,
+                    reunindo natureza, cultura, memória e experiências que transformam cada viagem
+                    em algo muito maior do que uma simples visita.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#destinos" class="btn btn-primary">Explorar destinos</a>
+                    <a href="detalhes.html?id=1" class="btn btn-secondary">Ver um destaque</a>
+                </div>
+            </div>
+
+            <div class="hero-panel">
+                <div class="panel-card">
+                    <span class="panel-mini">Curadoria do projeto</span>
+                    <h3>Uma viagem visual pelo Brasil</h3>
+                    <p>
+                        Destinos naturais, cidades históricas e paisagens icônicas escolhidas para
+                        mostrar a diversidade, a beleza e a riqueza cultural do país.
+                    </p>
+
+                    <div class="panel-info">
+                        <div>
+                            <strong>12</strong>
+                            <span>destinos</span>
+                        </div>
+
+                        <div>
+                            <strong>10+</strong>
+                            <span>estados</span>
+                        </div>
+
+                        <div>
+                            <strong>BR</strong>
+                            <span>curadoria nacional</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="destinos" class="section-title">
+            <span class="section-tag">Roteiros selecionados</span>
+            <h2>Destinos em destaque</h2>
+            <p>Explore paisagens únicas e veja todos os detalhes de cada lugar.</p>
+        </section>
+
+        <section id="lista-destinos" class="cards-container">
+            <!-- Os cards serão carregados pelo JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Além da Vista © 2026</p>
+    </footer>
+
 </body>
+
 </html>
